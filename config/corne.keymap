@@ -15,13 +15,15 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <130>;
+            tapping-term-ms = <90>;
             quick_tap_ms = <200>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <150>;
+            /* quick-tap-ms = <150>; */
             global-quick-tap;
+            require-prior-idle-ms = <100>;    // Prevents accidental holds mid-word
+            hold-trigger-on-release;          // More reliable for fast typing
         };
 
         para: para {
