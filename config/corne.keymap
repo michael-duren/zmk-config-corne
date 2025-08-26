@@ -75,7 +75,7 @@
 &trans      &kp EXCLAMATION  &kp AT_SIGN        &kp HASH              &kp DOLLAR      &kp PERCENT       &kp CARET   &kp AMPERSAND    &kp ASTERISK           &kp PIPE           &kp BACKSLASH     &trans
 &caps_word  &kp LESS_THAN    &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp MINUS         &kp EQUAL   &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GREATER_THAN  &trans
 &trans      &kp TILDE        &kp DOUBLE_QUOTES  &kp SQT               &kp GRAVE       &kp UNDERSCORE    &kp PLUS    &kp GRAVE        &kp SQT                &kp DOUBLE_QUOTES  &kp TILDE         &trans
-                                                &bootloader           &studio_unlock  &studio_unlock    &kp DELETE  &kp ENTER        &bt BT_CLR_ALL
+                                                &bootloader           &studio_unlock  &studio_unlock    &kp DELETE  &kp ENTER        &trans
             >;
         };
 
