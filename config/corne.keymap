@@ -43,7 +43,6 @@
             compatible = "zmk,behavior-hold-tap";
             flavor = "balanced";
             hold-trigger-key-positions = <KEYS_R THUMBS>;
-            hold-trigger-on-release;
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
             require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
@@ -55,7 +54,6 @@
           compatible = "zmk,behavior-hold-tap";
           flavor = "balanced";
           hold-trigger-key-positions = <KEYS_L THUMBS>;
-          hold-trigger-on-release;
           tapping-term-ms = <TAPPING_TERM_MS>;
           quick-tap-ms = <QUICK_TAP_MS>;
           require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
