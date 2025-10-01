@@ -8,8 +8,8 @@
 #define ADJ 3
 #define EXTRA 4
 #define TAPPING_TERM_MS 200
-#define QUICK_TAP_MS 175
-#define REQUIRE_PRIOR_IDLE_MS 150
+#define QUICK_TAP_MS 200
+#define REQUIRE_PRIOR_IDLE_MS 0
 #define KEYS_L 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29
 #define KEYS_R 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35
 #define THUMBS 36 37 38 39 40 41
@@ -17,13 +17,15 @@
 &mt {
   flavor = "balanced";
   tapping-term-ms = <TAPPING_TERM_MS>;
-  quick-tap-ms = <0>;
+  quick-tap-ms = <QUICK_TAP_MS>;
+  require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
 };
 
 &lt {
   flavor = "balanced";
   tapping-term-ms = <TAPPING_TERM_MS>;
-  quick-tap-ms = <0>;
+  quick-tap-ms = <QUICK_TAP_MS>;
+  require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
 };
 
 &sk {
