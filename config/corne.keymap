@@ -7,6 +7,9 @@
 #define SYM 2
 #define ADJ 3
 #define EXTRA 4
+#define TAPPING_TERM_MS 280
+#define QUICK_TAP_MS 175
+#define REQUIRE_PRIOR_IDLE_MS 150
 
 / {
     behaviors {
@@ -35,6 +38,25 @@
             hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29>; // Left side keys + thumbs
             hold-trigger-on-release;
         };
+
+        mt {
+          flavor = "balanced";
+          tapping-term-ms = <TAPPING_TERM_MS>;
+          quick-tap-ms = <QUICK_TAP_MS>;
+          require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
+        };
+
+        lt {
+          flavor = "balanced";
+          tapping-term-ms = <TAPPING_TERM_MS>;
+          quick-tap-ms = <QUICK_TAP_MS>;
+          require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
+        };
+
+        sk {
+          quick-release;
+        };
+
     };
 
     combos {
