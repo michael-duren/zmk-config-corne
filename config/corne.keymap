@@ -28,9 +28,9 @@
   require-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;
 };
 
-&num_word {
-  continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL RSHFT LEFT RIGHT UP DOWN>;
-};
+// &num_word {
+//   continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL RSHFT LEFT RIGHT UP DOWN>;
+// };
 
 &sk {
   quick-release;
